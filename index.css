@@ -1,0 +1,1600 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+
+html, body{
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+.sectionOne{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+
+/*-------------------------------------------MenuBar Starts---------------------------------------------------*/
+
+.menuBar{
+	width: 20%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-color: #BD5D38;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1; 
+}
+
+.menuBarContent{
+	width: 100%;
+	height: 60%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background-color: transparent;
+}
+
+#displayImage{
+	width: 150px;
+	height: 150px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%;
+	border:  10px solid #CA7D60;
+
+}
+
+#displayImage img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+ul{
+	text-decoration: none;
+}
+
+.menuBarOptions{
+	width: 100%;
+	height: 75%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.menuBarOptionsItems{
+	width: 100%;
+	height: 80%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+#optionsAbout, #optionsExperience, #optionsEducation, #optionsSkill, #optionsProject{
+	width: 100%;
+	height: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+#optionsAbout, #optionsExperience, #optionsEducation, #optionsSkill, #optionsProject{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #EED6CD;
+	cursor: pointer;
+	margin: 5px;
+	padding: 5px;
+}
+
+#optionsAbout:hover{
+	color: white;
+}
+
+#optionsExperience:hover{
+	color: white;
+}
+
+#optionsEducation:hover{
+color: white;
+}
+
+#optionsSkill:hover{
+	color: white;
+}
+
+#optionsProject:hover{
+	color: white;
+}
+
+/*-------------------------------------------MenuBar Ends---------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------Main Content Starts---------------------------------------------*/
+.mainContent{
+	width: 80%;
+	height: 100%;
+	margin-left: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-color: transparent;
+}
+
+.infoSection{
+	width: 80%;
+	height: 80%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.mainInfo{
+	width: 100%;
+	height: 70%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+#mainHeading{
+	width: 50%;
+	height: 30%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+
+}
+
+.firstName{
+	font-family: "Saira Extra Condensed", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 6em;
+	color: #343a40;
+}
+
+.secondName{
+	font-family: "Saira Extra Condensed", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 6em;
+	color: #BD5D38;
+}
+
+.mainHeadingMobile{
+	display: none;
+}
+
+.firstNameMobile{
+	display: none;
+}
+
+.secondNameMobile{
+	display: none;
+}
+
+.subHeading{
+	font-family: "Saira Extra Condensed", sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 1.1em;
+	color: #868E96;
+}
+
+.subHeading a{
+	text-decoration: none;
+	color: #BD5D38;
+}
+
+
+#mainInfoContent{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	text-transform: none;
+	margin-top: 2em;
+}
+
+.socialMediaLinks{
+	width: 30%;
+	height: 20%;
+	margin-top: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+
+}
+
+#facebookIcon{
+	width: 50px;
+	height: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%; 
+	background-color: #868e96;
+	cursor: pointer;
+	-webkit-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}
+
+#facebookIcon:hover{
+	background-color:#BD5D38;
+}
+
+#twitterIcon{
+	width: 50px;
+	height: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%; 
+	background-color: #868e96;
+	cursor: pointer;
+	-webkit-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}
+
+#twitterIcon:hover{
+	background-color:#BD5D38;
+}
+
+#githubIcon{
+	width: 50px;
+	height: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%; 
+	background-color: #868e96;
+	cursor: pointer;
+	-webkit-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}
+
+#githubIcon:hover{
+	background-color:#BD5D38;
+}
+
+
+#linkedInIcon{
+	width: 50px;
+	height: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%; 
+	background-color: #868e96;
+	cursor: pointer;
+	-webkit-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}
+
+#linkedInIcon:hover{
+	background-color:#BD5D38;
+}
+
+
+.socialMediaLinks i{
+	color: white;
+}
+
+
+/*-----------------------------------------------------------------Section One Completes-----------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------Section Two Starts-----------------------------------------------------*/
+
+
+.sectionTwo{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.containerTwo{
+	width: 80%;
+	height: 100%;
+	margin-left: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerTwoContent{
+	width: 80%;
+	height: 80%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.containerTwoMainHeading{
+	width: 100%;
+	height: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerTwoMainHeading h1{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343A40; 
+}
+
+.containerTwoExperienceListItemOne{
+	width: 100%;
+	height: 40%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+
+.firstExperienceHeading{
+	width: 500px;
+	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+
+.firstExperienceHeading span{
+	color: #BD5D38;
+	margin-right: 5px;
+}
+
+
+.firstExperienceSubHeading{
+	color: #343a40;
+	line-height: 1.5em;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-left: 12px;
+}
+
+.firstExperienceSubHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+/*---------------------------------------------_Section Two Ventures--------------------------------------------------*/
+
+.containerTwoExperienceListItemTwo{
+	width: 100%;
+	height: 40%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+
+.secondExperienceHeading{
+	width: 500px;
+	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+
+.secondExperienceHeading span{
+	color: #BD5D38;
+	margin-right: 5px;
+}
+
+
+.secondExperienceSubHeading{
+	color: #343a40;
+	line-height: 1.5em;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-left: 12px;
+}
+
+.secondExperienceSubHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+
+
+/*------------------------------------------------------------------------Section Two Ends-----------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------------Section Three Begins-----------------------------------*/
+
+
+.sectionThree{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.containerThree{
+	width: 80%;
+	height: 100%;
+	margin-left: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerThreeContent{
+	width: 80%;
+	height: 80%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.containerThreeMainHeading{
+	width: 100%;
+	height: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerThreeMainHeading h1{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343A40; 
+}
+
+
+/*---------------------------------------------_Section Three List Item One-------------------------------------------------*/
+
+.containerThreeEducationListItemOne{
+	width: 100%;
+	height: 26.66%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+
+.firstEducationHeading{
+	width: 500px;
+	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+
+.firstEducationHeading span{
+	color: #BD5D38;
+	margin-right: 5px;
+}
+
+
+.firstEducationSubHeading{
+	color: #343a40;
+	line-height: 1.5em;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-left: 12px;
+}
+
+.firstEducationSubHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+/*---------------------------------------------_Section Three List Item Two-------------------------------------------------*/
+
+.containerTwoEducationListItemTwo{
+	width: 100%;
+	height: 26.66%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+
+.secondEducationHeading{
+	width: 500px;
+	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+
+.secondEducationHeading span{
+	color: #BD5D38;
+	margin-right: 5px;
+}
+
+
+.secondEducationSubHeading{
+	color: #343a40;
+	line-height: 1.5em;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-left: 12px;
+}
+
+.secondEducationSubHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+/*---------------------------------------------_Section Three List Item Three-------------------------------------------------*/
+
+.containerThreeEducationListItemThree{
+	width: 100%;
+	height: 26.66%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+
+.thirdEducationHeading{
+	width: 500px;
+	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+
+.thirdEducationHeading span{
+	color: #BD5D38;
+	margin-right: 5px;
+}
+
+
+.thirdEducationSubHeading{
+	color: #343a40;
+	line-height: 1.5em;
+
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-left: 12px;
+}
+
+.thirdEducationSubHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+/*---------------------------------------------_Section Three Ends-------------------------------------------------*/
+
+
+
+
+/*---------------------------------------------_Section Four Starts-------------------------------------------------*/
+
+.sectionFour{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.containerFour{
+	width: 80%;
+	height: 100%;
+	margin-left: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerFourContent{
+	width: 80%;
+	height: 80%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.containerFourMainHeading{
+	width: 100%;
+	height: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerFourMainHeading h1{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343A40; 
+}
+
+/*---------------------------------------------Section Four List Item One-------------------------------------------------*/
+
+
+.containerSkillListItemOne{
+	width: 100%;
+	height: 26.66%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerSkillListItemOneSubItemOne{
+	width: 50%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.firstSkillHeading{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.firstSkillHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+.firstSkillHeading i{
+	color: #bd5d38;
+	margin-left: 10px;
+}
+
+.containerSkillListItemOneSubItemTwo{
+	width: 50%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+
+.secondSkillHeading{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.secondSkillHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+.secondSkillHeading i{
+	color: #bd5d38;
+	margin-left: 10px;
+}
+
+
+/*---------------------------------------------Section Four List Item Two-------------------------------------------------*/
+
+
+.containerSkillListItemTwo{
+	width: 100%;
+	height: 26.66%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerSkillListItemTwoSubItemOne{
+	width: 50%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.thirdSkillHeading{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.thirdSkillHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+.thirdSkillHeading i{
+	color: #bd5d38;
+	margin-left: 10px;
+}
+
+.containerSkillListItemTwoSubItemTwo{
+	width: 50%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+
+.fourthSkillHeading{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.fourthSkillHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+.fourthSkillHeading i{
+	color: #bd5d38;
+	margin-left: 10px;
+}
+
+/*---------------------------------------------Section Four List Item Three-------------------------------------------------*/
+
+
+.containerSkillListItemThree{
+	width: 100%;
+	height: 26.66%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerSkillListItemThreeSubItemOne{
+	width: 50%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.fifthSkillHeading{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.fifthSkillHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+
+.containerSkillListItemThreeSubItemTwo{
+	width: 50%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+
+.sixthSkillHeading{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #343a40;
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.sixthSkillHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+/*---------------------------------------------_Section Four Ends-------------------------------------------------*/
+
+/*---------------------------------------------_Section Five Starts------------------------------------------------*/
+
+.sectionFive{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerFive{
+	width: 80%;
+	height: 100%;
+	margin-left: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerFiveContent{
+	width: 80%;
+	height: 80%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.containerFiveMainHeading{
+	width: 100%;
+	height: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.containerFiveMainHeading h1{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343A40; 
+}
+
+.containerProjectListItemOne{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}	
+
+.firstProjectHeading span{
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #BD5D38;
+}
+
+.containerProjectListItemOne a{
+	list-style-type: none;
+	color: inherit;
+	font-family: "Saira Extra Condensed", sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #343A40; 
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------_Media Querry Starts--------------------------------------*/
+
+
+@media (min-width: 280px) and (max-width: 768px) {
+  	.menuBar{
+  		display: none;
+  	}
+
+  	.mainHeading{
+  		display: none;
+  	}
+
+  	.firstName{
+  		font-size: 4em;
+  	}
+
+  	.secondName{
+  		font-size: 4em;
+  	}
+
+  	.mainContent{
+  		width: 100%;
+  		margin-left: 0;
+  	}
+  	
+  	.socialMediaLinks{
+  		width: 85%;
+  	}
+
+  	/*-----------------------------------------------Section Two Starts-------------------------------------------------------------*/
+  	.containerTwo{
+  		width: 100%;
+  		margin-left: 0;
+  	}
+
+  	.containerTwoMainHeading{
+  		justify-content: center;	
+  	}
+
+  	.containerTwoExperienceListItemOne{
+  		align-items: center;
+  	}
+
+  	.firstExperienceHeading{
+  		justify-content: center;
+  		font-size: 1.2em;
+  	}
+
+  	.firstExperienceSubHeading{
+  		font-size: 1em;
+  	}
+
+  	.containerTwoExperienceListItemTwo{
+  		align-items: center;
+  	}
+
+  	.secondExperienceHeading{
+  		justify-content: center;
+  		font-size: 1.2em;
+  	}
+
+  	.secondExperienceSubHeading{
+  		font-size: 1em;
+  	}
+
+	/*-----------------------------------------------Section Three Starts-------------------------------------------------------------*/
+  	.containerThree{
+  		width: 100%;
+  		margin-left: 0;
+  	}
+
+  	.containerThreeContent{
+  		width: 100%;
+  	}
+
+  	.containerThreeMainHeading{
+  		justify-content: center;
+  	}
+
+  	.containerThreeEducationListItemOne{
+  		align-items: center;
+  	}
+
+  	.firstEducationHeading{
+  		justify-content: center;
+  		font-size: 1.2em;
+  	}
+
+  	.firstEducationSubHeading{
+  		font-size: 1em;
+  	}
+
+
+  	.containerTwoEducationListItemTwo{
+  		align-items: center;
+  	}
+
+  	.secondEducationHeading{
+  		justify-content: center;
+  		font-size: 1.2em;
+  	}
+
+  	.secondEducationSubHeading{
+  		font-size: 1em;
+  	}
+
+
+  	.containerThreeEducationListItemThree{
+  		align-items: center;
+  	}
+
+  	.thirdEducationHeading{
+  		justify-content: center;
+  		font-size: 1.2em;
+  	}
+
+  	.thirdEducationSubHeading{
+  		font-size: 1em;
+  	}
+
+  	/*-----------------------------------------------Section Four Starts-------------------------------------------------------------*/
+  	.containerFour{
+  		width: 90%;
+  		margin-left: 0;
+  	}
+  	
+  	.containerFourMainHeading{
+  		justify-content: center;
+  	}
+
+  	.firstSkillHeading .secondSkillHeading, .thirdSkillHeading, .fourthSkillHeading, .fifthSkillHeading, .sixthSkillHeading{
+  		font-size: 1.2em;
+  	}
+
+  	/*-----------------------------------------------Section Four Starts-------------------------------------------------------------*/
+  	
+  	.containerProjectListItemOne a{
+  		font-size: 0.8em;
+  	}
+}  
